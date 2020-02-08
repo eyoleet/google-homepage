@@ -1,0 +1,117 @@
+/* Google Homepage Styles */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header ul{
+    margin: 20 0 0 0;
+    padding: 0;
+}
+
+header nav ul.header-left{
+    float:left; 
+    margin-left: 10px;
+}
+
+header nav ul.header-right{
+    float:right;
+    margin-right: 30px;
+}
+
+header ul li{
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color: black; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container{
+    width: 600px;
+    margin: 150 auto;
+    text-align: center; 
+}
+
+h1#logo{
+    width: 269px;
+    height: 98px;
+    background: url('images/google-logo.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999%;
+    margin: 0 auto;
+}
+
+#text-box{
+    width: 500px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 0.5px solid #ccc;
+    font-size: 15px;
+}
+
+#text-box:hover{
+    box-shadow: 0.5px 0.5px 4px 3px #ccc;
+}
+
+#button1{
+    margin-top: 20px;
+    padding: 8px;
+}
+
+#button2{
+    margin-top: 20px;
+    padding: 8px;
+}
+
+#united-kingdom{
+    position: absolute;
+    bottom: 40;
+    margin-left: 20px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer nav ul.footer-left{
+    float: left;
+    margin-left: -30px;
+}
+
+footer nav ul.footer-right{
+    float: right; 
+    margin-right: 30px;
+}
+
+footer nav ul li{
+    display: inline;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: black; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    color: #fff;
+    margin: 415 auto;
+}
